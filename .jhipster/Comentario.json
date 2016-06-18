@@ -1,0 +1,26 @@
+{
+    "relationships": [
+        {
+            "relationshipName": "receta",
+            "otherEntityName": "receta",
+            "relationshipType": "many-to-one",
+            "otherEntityField": "id"
+        }
+    ],
+    "fields": [
+        {
+            "fieldName": "texto",
+            "fieldType": "byte[]",
+            "fieldTypeBlobContent": "text"
+        },
+        {
+            "fieldName": "fecha",
+            "fieldType": "ZonedDateTime"
+        }
+    ],
+    "changelogDate": "20160618012711",
+    "dto": "no",
+    "service": "no",
+    "entityTableName": "comentario",
+    "pagination": "pager"
+}

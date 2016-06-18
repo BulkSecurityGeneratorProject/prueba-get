@@ -1,0 +1,31 @@
+{
+    "relationships": [
+        {
+            "relationshipName": "comentario",
+            "otherEntityName": "comentario",
+            "relationshipType": "one-to-many",
+            "otherEntityRelationshipName": "receta"
+        }
+    ],
+    "fields": [
+        {
+            "fieldName": "nombre",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "descripcion",
+            "fieldType": "byte[]",
+            "fieldTypeBlobContent": "text"
+        },
+        {
+            "fieldName": "imagen",
+            "fieldType": "byte[]",
+            "fieldTypeBlobContent": "image"
+        }
+    ],
+    "changelogDate": "20160618012607",
+    "dto": "no",
+    "service": "no",
+    "entityTableName": "receta",
+    "pagination": "pager"
+}
